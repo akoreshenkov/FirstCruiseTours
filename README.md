@@ -1,2 +1,2 @@
 # First-Cruise-Tours-main
- mane page
+ main page
