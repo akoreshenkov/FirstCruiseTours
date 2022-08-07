@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-width: 1920px;
+    min-height: 72px;
+    padding-bottom: 0px;
+  }
+  
+body {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.banner {
+    height: 752px;
+    width: 1920px;
+    background-image: url(images/blush-banner.png);
+    margin-top: -72px;
+}
+
+h1 {
+    position: absolute;
+    width: 661px;
+    height: 128px;
+    left: 157px;
+    top: 155px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 106%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+span {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 97.5%;
+}
+
+a {
+    width: 315px;
+    margin-right: 32px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #FFF965;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 23px;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.description {
+    position: absolute;
+    width: 347px;
+    height: 68px;
+    left: 157px;
+    top: 303px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.option {
+    position: absolute;
+    width: 600px;
+    height: 73px;
+    left: 157px;
+    top: 391px;
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.options1, .options2 {
+    margin-right: 40px;
+    width: 62px;
+}
+
+.options3 {
+    margin-right: 0px;
+}
+
+.blocks {
+    display: flex;
+    position: absolute;
+    width: 589px;
+    height: 56px;
+    left: 157px;
+    top: 484px;
+}
+
+.number {
+    width: 315px;
+    margin-right: 32px;
+    background-color: #ffffff;
+    padding-top: 8px;
+    padding-left: 19px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 97.5%;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.info {
+    position:absolute;
+    width: 350px;
+    height: 18px;
+    left: 157px;
+    top: 721px;
+    color: #B2CDE4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.pics {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
